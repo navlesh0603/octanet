@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zumba Classes</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #fd7e14;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    nav {
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      margin: 0 20px;
+      font-size: 18px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #e86912;
+    }
+
+    section.hero {
+      background-image: url('zumba-hero.jpg'); /* Change the image URL to your Zumba class image */
+      background-size: cover;
+      background-position: center;
+      color: black;
+      text-align: center;
+      padding: 100px 20px;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 40px;
+    }
+
+    section.classes {
+      max-width: 1200px;
+      margin: 0 auto 40px;
+      padding: 30px;
+      background-color: #fff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+    }
+
+    h2 {
+      color: #fd7e14;
+    }
+
+    .class {
+      margin-bottom: 20px;
+    }
+
+    .class img {
+      width: 100%;
+      height:auto;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    section.success-stories {
+      max-width: 1200px;
+      margin: 0 auto 40px;
+      padding: 30px;
+      background-color: #fff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+    }
+
+    .story {
+      margin-bottom: 20px;
+    }
+
+    .subscribe-form {
+      max-width: 600px;
+      margin: 0 auto 40px;
+      padding: 30px;
+      background-color: #fff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      background-color: #fd7e14;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #e86912;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Zumba Classes</h2>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#classes">Classes</a>
+      <a href="#success-stories">Success Stories</a>
+      <a href="#subscribe">Subscribe</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Get Fit and Have Fun with Zumba!</h1>
+    <p>Join our energetic Zumba classes and dance your way to a healthier lifestyle.</p>
+    <button>Join Now</button>
+  </section>
+
+  <section id="classes" class="classes">
+    <h1>Featured Zumba Classes</h1>
+
+    <div class="class">
+      <h3>Zumba Dance Party</h3>
+      <img src="zumba1.jpeg" alt="Zumba Dance Party">
+    </div>
+
+    <div class="class">
+      <h3>Zumba Toning</h3>
+      <img src="zumba2.jpeg" alt="Zumba Toning">
+    </div>
+
+    <div class="class">
+      <h3>Zumba Gold</h3>
+      <img src="zumba3.jpeg" alt="Zumba Gold">
+    </div>
+
+  </section>
+
+  <section id="success-stories" class="success-stories">
+    <h2>Success Stories</h2>
+  
+    <div class="story">
+      <p>"Zumba has transformed my fitness journey. I've never enjoyed working out so much!"</p>
+    </div>
+  
+    <div class="story">
+      <p>"The energy in Zumba classes is contagious. I've lost weight and gained confidence!"</p>
+    </div>
+    
+    <div class="story">
+      <p>"Joining Zumba classes was the best decision I've made for my health. It's fun, effective, and keeps me coming back for more!"</p>
+    </div>
+  </section>
+  
+  <section id="subscribe" class="subscribe-form">
+    <h2>Subscribe for Updates</h2>
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <button type="submit">Subscribe Now</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; Zumba Classes. All rights reserved.
+  </footer>
+
+</body>
+</html>
